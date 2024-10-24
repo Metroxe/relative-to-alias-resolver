@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.8...1.1.0) (2024-10-24)
+
+
+### Bug Fixes
+
+* fix bug with abs imports at the base url ([2fe47a4](https://github.com/Metroxe/relative-to-alias-resolver/commit/2fe47a4cd7057728538bff66178416ea83c29818))
+
+
+### Features
+
+* add verbose & fix issues with detecting correct paths ([ff90794](https://github.com/Metroxe/relative-to-alias-resolver/commit/ff90794634ff6f0af94f1d3a14318621352f807b))
+
 ## [1.0.8](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.7...1.0.8) (2024-10-24)
 
 
