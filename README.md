@@ -7,6 +7,24 @@
 
 The **Relative to Alias Resolver** is a tool designed to convert a TypeScript project from using relative imports to alias imports. This can help improve the readability and maintainability of your codebase by using more descriptive import paths.
 
+For example, it can transform your imports from this:
+
+```typescript
+// Before conversion
+import { MyComponent } from '../../../components/MyComponent';
+import { utilFunction } from '../../utils/utilFunction';
+```
+
+to this:
+
+```typescript
+// After conversion
+import { MyComponent } from '@/components/MyComponent';
+import { utilFunction } from '@/utils/utilFunction';
+```
+
+This makes your code cleaner and easier to maintain, especially in larger projects.
+
 ## Features
 
 - Converts relative imports to alias imports based on your `tsconfig.json` configuration.
