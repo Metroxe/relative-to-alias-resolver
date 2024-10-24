@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.3...1.0.4) (2024-10-24)
+
+
+### Bug Fixes
+
+* add badges to the readme ([d154682](https://github.com/Metroxe/relative-to-alias-resolver/commit/d15468255326002fc6121317dae89937f68826c9))
+* remove extra files that were being put in the npm package ([ba44b21](https://github.com/Metroxe/relative-to-alias-resolver/commit/ba44b21674a97402343a632cbe7e1e523d8fa78e))
+
 ## [1.0.3](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.2...1.0.3) (2024-10-24)
 
 
