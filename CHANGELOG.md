@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/metroxe/relative-to-alias-resolver/compare/1.1.3...1.1.4) (2024-10-24)
+
+
+### Bug Fixes
+
+* remove unused libraries ([72ee86f](https://github.com/metroxe/relative-to-alias-resolver/commit/72ee86f55e5934084e0bbcc1338dcf4c57294782))
+
 ## [1.1.3](https://github.com/metroxe/relative-to-alias-resolver/compare/1.1.2...1.1.3) (2024-10-24)
 
 
