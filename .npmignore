@@ -5,9 +5,12 @@ dist/**/*.spec.ts
 tests/
 coverage/
 node_modules/
+.github
 .gitignore
 .mocharc.json
 .npmignore
-.npmrc
-.prettierrc.json
-.tsconfig.json
+.nycrc
+.prettierrc
+tsconfig.json
+build.mjs
+release.config.js
