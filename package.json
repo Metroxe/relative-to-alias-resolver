@@ -36,10 +36,8 @@
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "esprima": "^4.0.1",
     "recast": "^0.23.9",
     "strip-json-comments": "^5.0.1",
-    "ts-tokenizr": "^1.1.1",
     "zod": "^3.23.8"
   },
   "keywords": [
