@@ -1,0 +1,5 @@
+dist
+node_modules
+tests/tmp
+coverage
+.DS_Store

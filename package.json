@@ -1,0 +1,45 @@
+{
+  "name": "relative-to-alias-resolver",
+  "version": "0.0.0",
+  "description": "converts a typescript from from relative imports to alias imports",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.js",
+  "type": "module",
+  "bin": {
+    "relative-to-alias-resolver": "./dist/cli.js"
+  },
+  "scripts": {
+    "test": "mocha --config .mocharc.json --reporter=spec",
+    "test:coverage": "c8 mocha --config .mocharc.json --reporter=spec",
+    "build:clean": "rm -rf dist",
+    "build:types": "tsc --emitDeclarationOnly && tsc-alias",
+    "build": "pnpm build:clean && pnpm run build:types && node build.mjs",
+  },
+  "author": "Christopher Powroznik",
+  "license": "MIT",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/chai": "^5.0.0",
+    "@types/esprima": "^4.0.6",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.7.9",
+    "c8": "^10.1.2",
+    "chai": "^5.1.2",
+    "esbuild": "^0.24.0",
+    "mocha": "^10.7.3",
+    "mocha-junit-reporter": "^2.2.1",
+    "source-map-support": "^0.5.21",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "esprima": "^4.0.1",
+    "recast": "^0.23.9",
+    "strip-json-comments": "^5.0.1",
+    "ts-tokenizr": "^1.1.1",
+    "zod": "^3.23.8"
+  }
+}

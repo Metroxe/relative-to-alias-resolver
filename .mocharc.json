@@ -1,0 +1,10 @@
+{
+  "node-option": ["import=tsx"],
+  "reporter": "mocha-junit-reporter",
+  "reporter-option": ["mochaFile=./junit.xml"],
+  "require": [
+    "tsconfig-paths/register"
+  ],
+  "extension": ["ts"],
+  "spec": ["tests/**/*.spec.ts", "src/**/*.spec.ts"]
+}
