@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.2...1.0.3) (2024-10-24)
+
+
+### Bug Fixes
+
+* fix dry run not working ([51dc7cf](https://github.com/Metroxe/relative-to-alias-resolver/commit/51dc7cf4830286fce8bc0dc2ea0b5709d6a6681a))
+
 ## [1.0.2](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.1...1.0.2) (2024-10-24)
 
 
