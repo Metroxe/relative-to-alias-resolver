@@ -24,9 +24,9 @@ export default async function main(options: Options) {
   // 4. Create a list of all the files in the project
   const fileList = await createFileList(
     options.project,
-    options.ignoreDirectories
+    options.ignoreDirectories,
   );
 
   // 5. process the files
-  await processFiles(fileList, paths);
+  await processFiles(fileList, paths, options.dryRun);
 }

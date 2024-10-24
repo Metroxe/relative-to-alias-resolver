@@ -12,7 +12,7 @@ import { Options } from "@/index";
  */
 export default async function createFileList(
   projectPath: string,
-  ignorePatterns: string[]
+  ignorePatterns: string[],
 ): Promise<string[]> {
   const fileList: string[] = [];
 

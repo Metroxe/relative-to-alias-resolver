@@ -41,7 +41,6 @@ relative-to-alias-resolver --project <path-to-project> --tsconfig <path-to-tscon
 - `-t, --tsconfig <path>`: The path to the `tsconfig.json` file to use for the project. Defaults to `./tsconfig.json`.
 - `-d, --dry-run`: Run the command in dry run mode. Defaults to `true`.
 - `-i, --ignore <patterns>`: A comma-separated list of regex patterns for paths to ignore. Defaults to `["node_modules"]`.
-- `-c, --concurrency <number>`: The number of promises to allow at once when editing the project. Defaults to `5`.
 
 #### Example
 

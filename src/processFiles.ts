@@ -5,7 +5,8 @@ import { resolve } from "node:path";
 
 export default async function processFiles(
   fileList: string[],
-  paths: { [key: string]: string[] }
+  paths: { [key: string]: string[] },
+  dryRun: boolean
 ) {
   async function processFile(filePath: string) {
     // 1. read the file contents
@@ -43,7 +44,9 @@ export default async function processFiles(
     const modifiedContents = recast.print(ast).code;
 
     // 5. write the modified contents back to the file
-    await fs.writeFile(filePath, modifiedContents);
+    if (!dryRun) {
+      await fs.writeFile(filePath, modifiedContents);
+    }
   }
 
   await Promise.all(fileList.map(processFile));
