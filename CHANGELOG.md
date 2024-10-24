@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.1.1...1.1.2) (2024-10-24)
+
+
+### Bug Fixes
+
+* add additional details for npm to package.json ([367885b](https://github.com/Metroxe/relative-to-alias-resolver/commit/367885b4b1004e9ab91d775108ba740505e0d824))
+
 ## [1.1.1](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.1.0...1.1.1) (2024-10-24)
 
 
