@@ -24,6 +24,12 @@ import { utilFunction } from '@/utils/utilFunction';
 
 This makes your code cleaner and easier to maintain, especially in larger projects.
 
+## Why Use This Package?
+
+- **Improved Code Readability**: Alias imports make your code cleaner and easier to navigate.
+- **Enhanced Maintainability**: Simplifies refactoring and reduces the risk of import path errors.
+- **Seamless Integration**: Easily integrates with existing TypeScript projects and build processes.
+
 ## Features
 
 - Converts relative imports to alias imports based on your `tsconfig.json` configuration.
