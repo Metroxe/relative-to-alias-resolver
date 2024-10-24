@@ -1,5 +1,8 @@
 # Relative to Alias Resolver
 
+[![npm version](https://badge.fury.io/js/relative-to-alias-resolver.svg)](https://badge.fury.io/js/relative-to-alias-resolver)
+[![npm downloads](https://img.shields.io/npm/dm/relative-to-alias-resolver.svg)](https://www.npmjs.com/package/relative-to-alias-resolver)
+
 ## Overview
 
 The **Relative to Alias Resolver** is a tool designed to convert a TypeScript project from using relative imports to alias imports. This can help improve the readability and maintainability of your codebase by using more descriptive import paths.
