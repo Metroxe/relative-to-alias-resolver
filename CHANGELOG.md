@@ -1,3 +1,11 @@
+## [1.0.5](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.4...1.0.5) (2024-10-24)
+
+
+### Bug Fixes
+
+* add example to the README ([d81d505](https://github.com/Metroxe/relative-to-alias-resolver/commit/d81d505e10f4e069dee09796b447cfe09ddf0f8e))
+* fix bug with the cli not pointing to the correct cjs file ([316fb9d](https://github.com/Metroxe/relative-to-alias-resolver/commit/316fb9d3ac8db3a960db237199c8bff21a0681a3))
+
 ## [1.0.4](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.3...1.0.4) (2024-10-24)
 
 
