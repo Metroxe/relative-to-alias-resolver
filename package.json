@@ -53,5 +53,9 @@
     "TypeScript Project",
     "Build Process",
     "Developer Tools"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metroxe/relative-to-alias-resolver.git"
+  }
 }
