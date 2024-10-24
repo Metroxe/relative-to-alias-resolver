@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.1.0...1.1.1) (2024-10-24)
+
+
+### Bug Fixes
+
+* make badge correct url ([271fb66](https://github.com/Metroxe/relative-to-alias-resolver/commit/271fb66e7cb01a1b04a14d630f530b647beb626e))
+
 # [1.1.0](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.8...1.1.0) (2024-10-24)
 
 
