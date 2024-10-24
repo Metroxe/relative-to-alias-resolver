@@ -8,6 +8,7 @@ import { log } from "@/log";
 export default async function processFiles(
   fileList: string[],
   paths: { [key: string]: string[] },
+  baseUrl: string,
   dryRun: boolean
 ) {
   async function processFile(filePath: string) {
@@ -33,7 +34,14 @@ export default async function processFiles(
         log("Visiting import declaration in file:", filePath);
         log("Original import path:", path.node.source.value);
 
-        let importPath = resolve(currentDir, path.node.source.value as string);
+        // if the original import path does not start with a dot, then we need to resolve it to the baseUrl
+        const startsWithDot = (path.node.source.value as string).startsWith(
+          "."
+        );
+        let importPath = resolve(
+          startsWithDot ? currentDir : baseUrl,
+          path.node.source.value as string
+        );
 
         // check to see if the import path exists on the file system
         if (

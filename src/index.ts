@@ -33,7 +33,7 @@ export default async function main(options: Options) {
   );
 
   // 5. process the files
-  await processFiles(fileList, paths, options.dryRun);
+  await processFiles(fileList, paths, baseUrl, options.dryRun);
 }
 
 export { verbose };

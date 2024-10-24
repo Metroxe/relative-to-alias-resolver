@@ -58,15 +58,16 @@ relative-to-alias-resolver --project <path-to-project> --tsconfig <path-to-tscon
 
 #### Options
 
-- `-p, --project <path>`: The path to the project to generate alias imports for. Defaults to the current directory.
+- `-p, --project <path>`: The path to the project to generate alias imports for. Defaults to `.`.
 - `-t, --tsconfig <path>`: The path to the `tsconfig.json` file to use for the project. Defaults to `./tsconfig.json`.
-- `-d, --dry-run`: Run the command in dry run mode. Defaults to `true`.
+- `-d, --dry-run`: Whether to run the command in dry run mode. Defaults to `false`.
 - `-i, --ignore <patterns>`: A comma-separated list of regex patterns for paths to ignore. Defaults to `["node_modules"]`.
+- `-v, --verbose`: Enable verbose logging. Defaults to `false`.
 
 #### Example
 
 ```bash
-relative-to-alias-resolver --project ./src --tsconfig ./tsconfig.json
+relative-to-alias-resolver --project ./project --tsconfig ./project/tsconfig.json
 ```
 
 ### Library
