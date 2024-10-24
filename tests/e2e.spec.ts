@@ -31,8 +31,7 @@ describe("End to end test", () => {
       project: projectDir,
       tsconfig: path.resolve(projectDir, "tsconfig.json"),
       dryRun: false,
-      ignoreDirectories: [],
-      concurrency: 5,
+      ignore: [],
     });
 
     // get the path of all the files in the project recursively

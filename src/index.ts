@@ -8,7 +8,7 @@ export interface Options {
   project: string;
   tsconfig: string;
   dryRun: boolean;
-  ignoreDirectories: string[];
+  ignore: string[];
 }
 
 export default async function main(options: Options) {
@@ -24,7 +24,7 @@ export default async function main(options: Options) {
   // 4. Create a list of all the files in the project
   const fileList = await createFileList(
     options.project,
-    options.ignoreDirectories,
+    options.ignore,
   );
 
   // 5. process the files

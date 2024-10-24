@@ -12,7 +12,7 @@ import { Options } from "@/index";
  */
 export default async function createFileList(
   projectPath: string,
-  ignorePatterns: string[],
+  ignore: string[]
 ): Promise<string[]> {
   const fileList: string[] = [];
 
@@ -22,13 +22,16 @@ export default async function createFileList(
     for (const entry of entries) {
       const fullPath = path.join(directory, entry.name);
 
-      if (ignorePatterns.some((pattern) => new RegExp(pattern).test(fullPath))) {
+      if (ignore.some((pattern) => new RegExp(pattern).test(fullPath))) {
         continue;
       }
 
       if (entry.isDirectory()) {
         await readDirectory(fullPath);
-      } else if (entry.isFile() && (fullPath.endsWith(".ts") || fullPath.endsWith(".tsx"))) {
+      } else if (
+        entry.isFile() &&
+        (fullPath.endsWith(".ts") || fullPath.endsWith(".tsx"))
+      ) {
         fileList.push(fullPath);
       }
     }
