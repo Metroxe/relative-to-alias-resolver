@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.0...1.0.1) (2024-10-24)
+
+
+### Bug Fixes
+
+* add missing build step ([aadcf11](https://github.com/Metroxe/relative-to-alias-resolver/commit/aadcf115253057998f925f4d8e90b4252b619f68))
+* fix broken script with call to different package manager ([16ea407](https://github.com/Metroxe/relative-to-alias-resolver/commit/16ea4074f6e99fcde21a5e2f6a14f4683b4dca00))
+
 # 1.0.0 (2024-10-24)
 
 

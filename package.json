@@ -1,6 +1,6 @@
 {
   "name": "relative-to-alias-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "converts a typescript from from relative imports to alias imports",
   "main": "dist/cjs/index.cjs",
   "module": "dist/esm/index.js",
