@@ -9,7 +9,6 @@ export interface Options {
   tsconfig: string;
   dryRun: boolean;
   ignoreDirectories: string[];
-  concurrency: number;
 }
 
 export default async function main(options: Options) {

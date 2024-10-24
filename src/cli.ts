@@ -22,12 +22,6 @@ program
     (value) => value.split(","),
     ["node_modules"]
   )
-  .option(
-    "-c, --concurrency <number>",
-    "The number of promises to allow at once when editing the project.",
-    (value) => parseInt(value),
-    5
-  )
   .action(main);
 
 program.parse(process.argv);
