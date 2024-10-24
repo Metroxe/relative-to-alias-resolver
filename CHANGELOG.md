@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.6...1.0.7) (2024-10-24)
+
+
+### Bug Fixes
+
+* add a bin for running as an executable ([bd3db87](https://github.com/Metroxe/relative-to-alias-resolver/commit/bd3db87a12157a031e5bc23c07dee3edb90b4552))
+* run with an import in cjs ([5c80778](https://github.com/Metroxe/relative-to-alias-resolver/commit/5c807786f594348d182cbc12518895caf99df2bb))
+
 ## [1.0.6](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.5...1.0.6) (2024-10-24)
 
 
