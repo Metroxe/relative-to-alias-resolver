@@ -6,7 +6,7 @@
   "module": "dist/esm/index.js",
   "type": "module",
   "bin": {
-    "relative-to-alias-resolver": "./dist/cli.js"
+    "relative-to-alias-resolver": "./dist/cli.cjs"
   },
   "scripts": {
     "test": "mocha --config .mocharc.json --reporter=spec",
