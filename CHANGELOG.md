@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.5...1.0.6) (2024-10-24)
+
+
+### Bug Fixes
+
+* force the js file to run with node ([4760b55](https://github.com/Metroxe/relative-to-alias-resolver/commit/4760b5524bc584dbfc1746633dcc45621191ad0c))
+
 ## [1.0.5](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.4...1.0.5) (2024-10-24)
 
 
