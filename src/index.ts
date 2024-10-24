@@ -9,11 +9,16 @@ export interface Options {
   tsconfig: string;
   dryRun: boolean;
   ignore: string[];
+  verbose: boolean;
 }
+
+let verbose = false;
 
 export default async function main(options: Options) {
   // 1. read the JSON from the tsconfig file
   const tsconfigObject = await readTsconfig(options.tsconfig);
+
+  verbose = options.verbose;
 
   // 2. Find the baseUrl
   const baseUrl = await findBaseUrl(tsconfigObject, options.project);
@@ -30,3 +35,5 @@ export default async function main(options: Options) {
   // 5. process the files
   await processFiles(fileList, paths, options.dryRun);
 }
+
+export { verbose };

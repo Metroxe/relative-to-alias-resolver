@@ -1,7 +1,7 @@
 import * as fs from "node:fs";
 import stripJsonComments from "strip-json-comments";
 import { z } from "zod";
-
+import { log } from "@/log";
 /**
  * Schema representing the structure of the TypeScript configuration object.
  */
@@ -28,8 +28,11 @@ export default async function readTsconfig(
 ): Promise<Tsconfig> {
   const tsconfig = await fs.promises.readFile(tsconfigPath, "utf8");
   const tsconfigJson = stripJsonComments(tsconfig);
-  const tsconfigObject = JSON.parse(tsconfigJson);
+  const tsconfigWithoutLeadingCommas = tsconfigJson.replace(/,\s*([}\]])/g, '$1');
+  const tsconfigObject = JSON.parse(tsconfigWithoutLeadingCommas);
   const parsedTsconfig = TsconfigSchema.parse(tsconfigObject);
+
+  log(`Parsed tsconfig: ${JSON.stringify(parsedTsconfig)}`);
 
   return parsedTsconfig;
 }
