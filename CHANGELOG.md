@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.7...1.0.8) (2024-10-24)
+
+
+### Bug Fixes
+
+* fix bug with argument names ([6c5664e](https://github.com/Metroxe/relative-to-alias-resolver/commit/6c5664e290927fe096cfdb96b20d256eacd79198))
+
 ## [1.0.7](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.0.6...1.0.7) (2024-10-24)
 
 
