@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/metroxe/relative-to-alias-resolver/compare/1.1.2...1.1.3) (2024-10-24)
+
+
+### Bug Fixes
+
+* add the repository URL so its linked back on npm ([a7c07c4](https://github.com/metroxe/relative-to-alias-resolver/commit/a7c07c4b11436868d405fc3b0b5bd791858b87fe))
+
 ## [1.1.2](https://github.com/Metroxe/relative-to-alias-resolver/compare/1.1.1...1.1.2) (2024-10-24)
 
 
