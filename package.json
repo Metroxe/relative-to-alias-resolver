@@ -13,7 +13,7 @@
     "test:coverage": "c8 mocha --config .mocharc.json --reporter=spec",
     "build:clean": "rm -rf dist",
     "build:types": "tsc --emitDeclarationOnly && tsc-alias",
-    "build": "pnpm build:clean && pnpm run build:types && node build.mjs"
+    "build": "npm run build:clean && npm run build:types && node build.mjs"
   },
   "author": "Christopher Powroznik",
   "license": "MIT",
