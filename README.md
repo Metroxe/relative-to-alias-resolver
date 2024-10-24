@@ -35,7 +35,7 @@ This makes your code cleaner and easier to maintain, especially in larger projec
 - Converts relative imports to alias imports based on your `tsconfig.json` configuration.
 - Supports both CommonJS and ES Module formats.
 - Provides a CLI for easy integration into your build process.
-- Includes options for dry runs and concurrency control.
+- Includes options for dry runs before modifying your project.
 
 ## Installation
 
