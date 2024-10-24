@@ -1,7 +1,6 @@
 # Relative to Alias Resolver
 
-[![npm version](https://badge.fury.io/js/relative-to-alias-resolver.svg)](https://badge.fury.io/js/relative-to-alias-resolver)
-[![npm downloads](https://img.shields.io/npm/dm/relative-to-alias-resolver.svg)](https://www.npmjs.com/package/relative-to-alias-resolver)
+[![npm version](https://badge.fury.io/js/relative-to-alias-resolver.svg)](https://www.npmjs.com/package/relative-to-alias-resolver)
 
 ## Overview
 
